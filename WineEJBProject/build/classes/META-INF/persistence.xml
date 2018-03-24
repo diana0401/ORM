@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="WineEJBProject">
+		<jta-data-source>jdbc/wineResource</jta-data-source>
+		<class>com.example.myfirstejb.model.User</class>
+		<class>com.example.myfirstejb.model.ClientB2B</class>
+		<class>com.example.myfirstejb.model.ClientB2C</class>
+		<class>com.example.myfirstejb.model.Promo</class>
+		<class>com.example.myfirstejb.model.OrderTable</class>
+		<class>com.example.myfirstejb.model.OrderItem</class>
+		<class>com.example.myfirstejb.model.StockClientB2B</class>
+		<class>com.example.myfirstejb.model.StockSupplier</class>
+		<class>com.example.myfirstejb.model.Supplier</class>
+		<class>com.example.myfirstejb.model.Wine</class>
+	</persistence-unit>
+</persistence>
